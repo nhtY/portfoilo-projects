@@ -33,9 +33,6 @@ try {
 
   } catch(PDOException $e) {
 	echo "Error: " . $e->getMessage();
-	// echo '<script type="text/javascript"> 
-    //             alert("Database error!"); 
-    //         </script>'; 
 	
   }
   $conn = null;
