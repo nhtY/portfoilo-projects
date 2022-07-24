@@ -1,0 +1,128 @@
+.container {
+  border: 2px solid thistle;
+  background-color: #C3E0E5;
+  border-radius: 8px;
+  width: 80%;
+  /* min-width: 530px; */
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+
+  padding-left: 8px;
+  padding-right: 8px;
+
+  padding-bottom: 20px;
+  padding-top: 4px;
+}
+
+.options {
+  height: 150px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box-option {
+  border: 4px solid #274472;
+  border-radius: 10px;
+  margin-top: 4px;
+  margin-left: 4px;
+  margin-right: 0px;
+}
+
+.left-side {
+  width: 40%;
+  float: left;
+}
+
+.right-side {
+  width: 40%;
+  float: right;
+}
+
+.dateTime-box {
+  /* min-width: 260px; */
+  padding: 4px;
+  float: inherit;
+  color: azure;
+  background-color: #5885AF;
+}
+
+.clear {
+  clear: both;
+}
+
+.btn-show {
+  float: right;
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+
+  background-color: #274472;
+  color: azure;
+  border-radius: 4px;
+
+}
+
+.btn-show:hover {
+  cursor: pointer;
+  background-color: #41729F;
+}
+
+.fix-slider-box {
+  padding: 4px;
+  float: inherit;
+  color: azure;
+  background-color: #274472;
+  border: 4px solid #172743;
+  border-radius: 10px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.384);
+}
+
+.fix-slider-box:hover {
+  cursor: pointer;
+  background-color: #41729F;
+}
+
+
+.detail-box {
+  width: 90%;
+  height: 100px;
+  /* background-color: antiquewhite; */
+  border: none;
+  text-align: center;
+  float: inherit;
+  padding: 2px;
+  font-size: 14px;
+}
+
+#chart-title{
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  color: #274472;
+}
+
+#ganttContainer {
+  background-color: #5885AF;
+  height: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4px 4px 4px 4px;
+  border: 4px solid #274472; 
+  border-radius: 16px;
+}
+
+
+/* hoverInfo.style.border = '5px solid #1e4589';
+hoverInfo.style.textAlign = 'left';
+hoverInfo.style.align = 'center';
+hoverInfo.style.backgroundColor = '#def4fa';
+hoverInfo.style.flex = 'flex';
+// hoverInfo.style.alignItems = 'center';
+// hoverInfo.style.flexContent = 'center';
+
+hoverInfo.style.width = '280px';
+hoverInfo.style.height = '100px';
+hoverInfo.style.margin = '0 auto'; */

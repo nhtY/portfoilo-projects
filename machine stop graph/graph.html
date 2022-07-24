@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chart</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Plotly.js -->
+    <!--
+    <script src="https://cdn.plot.ly/plotly-2.12.1.min.js"></script>
+    -->
+
+
+    <!-- eski versiyon.
+    <script src="https://cdn.plot.ly/plotly-1.8.0.min.js"></script>
+    -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    
+    
+
+</head>
+<body>
+    
+    <div class="container">
+        <h4 id="chart-title">Machine Stop Data</h4>
+
+        <div class="clear"></div>
+        
+        <!-- Chart - Start -->
+        <div class="chart">
+            <div id="ganttContainer"></div>
+        </div>
+        <!-- Chart - End -->
+
+        <div class="options">
+            <!-- Leftside - Start -->
+            <div class="left-side">
+
+                <!-- DateTime Box - Start  -->
+                <div id="dateTime" class="box-option dateTime-box">
+                    <!-- form etiketi içindeydi bu kısım -->
+                    <label for="rangeStart">Time Range Start:</label>
+                    <br>
+                    <input type="datetime-local" id="rangeStart" name="time_range_start">
+                    <br>
+                    <label for="rangeEnd">Time Range End:</label>
+                    <br>
+                    <input type="datetime-local" id="rangeEnd" name="time_range_end">
+                    <!-- <input class="btn-show" type="submit" value="Show" onclick="showGraph()"> -->
+                    
+                    <input class="btn-show" type="submit" value="Show" onclick="showGraph()">
+                </div>
+                <!-- DateTime Box - End  -->
+
+                <div class="clear"></div>
+                
+                <!-- Fix slider button - Start  -->
+                <div type="button" id="fix-slider" class="box-option fix-slider-box" onclick="fixSliderRange()">Fix The Slider</div>
+                <!-- Fix slider button - End  -->
+
+            </div>
+            <!-- Leftside - End -->
+
+            <!-- Rightside - Start -->
+            <div class="right-side">
+                <!-- Hoverinfo Box - Start  -->
+                <div class="box-option detail-box">
+                    <div id="hoverinfo"></div>
+                </div>
+                <!-- Hoverinfo Box - End  -->
+            </div>
+            <!-- Rightside - End -->
+              
+        </div>
+    </div>
+    
+
+
+</body>
+
+<script>
+    // sayfa ilk yüklendiğinde çalışıyor mu diye consol'a aşağıdakini yazdıracak. Önemsiz. Silinebilir.
+    var greeting = "hello";
+</script>
+
+<script src="scripts.js"></script>
+
+</html>
+
+
+
+
+
