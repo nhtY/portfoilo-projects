@@ -1,6 +1,6 @@
 # MACHINE STOP GRAPH
 
-As an internship project, this data visualisation project is done for the company Orta Anadolu.
+As an internship project, this data visualisation project is done for the company [Orta Anadolu](https://ortaanadolu.com/).
 
 Plotly Javascript open source graphing library is used to sketch the graph. PHP is used to fetch data from the database. XAMPP is used for Apache and MySQL.
 
